@@ -1,0 +1,9 @@
+[run]
+omit = 
+    /usr/*
+    /home/tori/PycharmProjects/lab1_PhoneBook/View.py
+    /home/tori/PycharmProjects/lab1_PhoneBook/Controller.py
+    /home/tori/PycharmProjects/lab1_PhoneBook/phoneBook.py
+    /home/tori/PycharmProjects/lab1_PhoneBook/tests.py
+    /home/tori/PycharmProjects/lab1_PhoneBook/run_test.py
+    /home/tori/PycharmProjects/lab1_PhoneBook/streamserialize.py
