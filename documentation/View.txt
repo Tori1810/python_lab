@@ -1,0 +1,32 @@
+Help on module View:
+
+NAME
+    View - It is unit with functions that print different messages
+
+FILE
+    /home/fanatic/PycharmProjects/python_lab1/View.py
+
+FUNCTIONS
+    print_add_message()
+    
+    print_confirm_question()
+    
+    print_delete_message()
+    
+    print_if_database_empty()
+    
+    print_if_record_absent()
+    
+    print_if_record_exist()
+    
+    print_input_first_name()
+    
+    print_input_last_name()
+    
+    print_input_phone_number()
+    
+    print_menu()
+    
+    print_program_completed()
+
+

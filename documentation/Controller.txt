@@ -4,7 +4,7 @@ NAME
     Controller
 
 FILE
-    /home/fanatic/PycharmProjects/lab1_PhoneBook/Controller.py
+    /home/fanatic/PycharmProjects/python_lab1/Controller.py
 
 FUNCTIONS
     menu()
