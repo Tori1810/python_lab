@@ -1,6 +1,5 @@
 from io import StringIO
 import yaml
-import pickle
 import json
 
 
@@ -12,20 +11,6 @@ class JsonStream(StringIO):
 class YamlStream(StringIO):
     def read(self):
         return super().getvalue()
-
-
-class PickleStream(StringIO):
-    def read(self):
-        return super().getvalue()
-
-
-def pickle_to_stream(data):
-    """
-    Convert data to pickle stream
-    """
-    pickle_stream = PickleStream()
-    pickle.dump(data, pickle_stream)
-    return pickle_stream
 
 
 def json_to_stream(data):

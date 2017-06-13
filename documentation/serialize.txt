@@ -1,0 +1,62 @@
+Help on module serialize:
+
+NAME
+    serialize
+
+FILE
+    /home/fanatic/PycharmProjects/python_lab1/serialize.py
+
+CLASSES
+    JsonSerialize
+    PickleSerialize
+    Serialize
+    YamlSerialize
+    
+    class JsonSerialize
+     |  Serialize database to json file
+     |  
+     |  Static methods defined here:
+     |  
+     |  load(fileName)
+     |      load data from file :filePath and return as list. If file doesn't
+     |      exist, return empty list
+     |  
+     |  save(fileName, data)
+     |      serialize to file :filePath list :data
+    
+    class PickleSerialize
+     |  Serialize database to pickle file
+     |  
+     |  Static methods defined here:
+     |  
+     |  load(fileName)
+     |      load data from file :filePath and return as list. If file doesn't
+     |      exist, return empty list
+     |  
+     |  save(fileName, data)
+     |      serialize to file :filePath list :data
+    
+    class Serialize
+     |  Choose file to serialize
+     |  
+     |  Static methods defined here:
+     |  
+     |  load(filePath)
+     |      Choose file to load data
+     |  
+     |  save(filePath, table)
+     |      Choose file to save data
+    
+    class YamlSerialize
+     |  Serialize database to yaml file
+     |  
+     |  Static methods defined here:
+     |  
+     |  load(fileName)
+     |      load data from file :filePath and return as list. If file doesn't
+     |      exist, return empty list
+     |  
+     |  save(fileName, data)
+     |      serialize to file :filePath list :data
+
+
