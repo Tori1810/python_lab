@@ -1,0 +1,100 @@
+
+NAME
+    serialize
+
+CLASSES
+    builtins.object
+        JsonSerialize
+        PickleSerialize
+        Serialize
+        YamlSerialize
+    
+    class JsonSerialize(builtins.object)
+     |  Serialize database to json file
+     |  
+     |  Static methods defined here:
+     |  
+     |  load(file_name)
+     |      load data from file :filePath and return as list. If file doesn't
+     |      exist, return empty list
+     |  
+     |  save(file_name, data)
+     |      serialize to file :filePath list :data
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+    class PickleSerialize(builtins.object)
+     |  Serialize database to pickle file
+     |  
+     |  Static methods defined here:
+     |  
+     |  load(file_name)
+     |      load data from file :filePath and return as list. If file doesn't
+     |      exist, return empty list
+     |  
+     |  save(file_name, data)
+     |      serialize to file :filePath list :data
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+    class Serialize(builtins.object)
+     |  Choose file to serialize
+     |  
+     |  Static methods defined here:
+     |  
+     |  load(file_path)
+     |      Choose file to load data
+     |  
+     |  save(file_path, table)
+     |      Choose file to save data
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+    
+    class YamlSerialize(builtins.object)
+     |  Serialize database to yaml file
+     |  
+     |  Static methods defined here:
+     |  
+     |  load(file_name)
+     |      load data from file :filePath and return as list. If file doesn't
+     |      exist, return empty list
+     |  
+     |  save(file_name, data)
+     |      serialize to file :filePath list :data
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+FILE
+    /home/fanatic/PycharmProjects/python_lab/serialize.py
+
+
+

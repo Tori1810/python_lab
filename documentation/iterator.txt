@@ -1,0 +1,21 @@
+Help on module iterator:
+
+NAME
+    iterator
+
+FILE
+    /home/fanatic/PycharmProjects/python_lab/iterator.py
+
+CLASSES
+    Iterator
+    
+    class Iterator
+     |  Class Iterator for database
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, base)
+     |  
+     |  __next__(self)
+
+

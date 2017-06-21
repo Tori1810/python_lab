@@ -1,0 +1,41 @@
+NAME
+    controller
+
+CLASSES
+    builtins.object
+        Controller
+    
+    class Controller(builtins.object)
+     |  Methods defined here:
+     |  
+     |  menu(self)
+     |      This function realizes possibility work with database from console
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  run_add_record_to_database(obj)
+     |      This function allows users add record to database
+     |  
+     |  run_delete_record_from_database(obj)
+     |      This function allows users delete record to database
+     |  
+     |  run_get_record_from_database(obj)
+     |      This function allows users get record from database by full name
+     |  
+     |  run_show_all_database(obj)
+     |      This function shows all database
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+
+FILE
+    /home/fanatic/PycharmProjects/python_lab/controller.py
+
+
